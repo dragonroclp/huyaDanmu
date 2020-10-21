@@ -1,0 +1,15 @@
+*.swp
+.DS_Store 
+node_modules
+release
+dist
+examples/game-jump-client-demo/package-lock.json
+examples/game-jump-server-demo/logs/
+*.log
+*.iml
+.idea
+examples/game-pixijs-client-demo/hyext_dist/
+examples/game-pixijs-client-demo/package-lock.json
+examples/game-common-demo-a/client-pixi-js/hyext_dist/
+*.pyc
+examples/game-common-demo-a/client-pixi-js/package-lock.json
