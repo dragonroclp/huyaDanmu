@@ -3,3 +3,4 @@
 请移步 -> [虎牙小程序](https://dev.huya.com/docs/)
 加入
 222
+master change
