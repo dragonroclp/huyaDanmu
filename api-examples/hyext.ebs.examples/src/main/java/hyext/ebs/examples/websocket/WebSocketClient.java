@@ -185,7 +185,7 @@ public class WebSocketClient extends org.java_websocket.client.WebSocketClient {
 
 
     public static void main(String[] args) {
-        String fileName = "C:\\Users\\27148\\Desktop\\half_game1.xlsx";
+        String fileName = "C:\\Users\\27148\\Desktop\\tessn4.xlsx";
         ExcelWriter excelWriter = EasyExcel.write(fileName, DemoMessage.class).build();
     	try {
             //String fileName = "C:\\Users\\27148\\Desktop\\half_game1.xlsx";
@@ -197,7 +197,7 @@ public class WebSocketClient extends org.java_websocket.client.WebSocketClient {
             // 去调用写入,这里我调用了五次，实际使用时根据数据库分页的总的页数来
 
 
-            int ExecuteSecond = 27; //监听时间秒
+            int ExecuteSecond = 4000; //监听时间秒
     		
     		String appId = "daa58c4fac166aa3";      //小程序开发者ID（成为开发者后，https://ext.huya.com可查）
     		String secret = "a9730b29062ba495eca4a121c283e2dd";     //小程序开发者密钥（成为开发者后，https://ext.huya.com可查）
